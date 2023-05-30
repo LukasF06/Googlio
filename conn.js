@@ -7,7 +7,7 @@ let searchHistroy = [];
 
 async function main() {
   const uri =
-    "mongodb+srv://user:user123@la1304cluster.qbpc9c5.mongodb.net/?retryWrites=true&w=majority";
+    "! Your Database URL!";
   const client = new MongoClient(uri);
 
   try {
